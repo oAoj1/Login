@@ -1,0 +1,146 @@
+@keyframes float {
+    50%{
+        transform: translateY(-5px);
+    }
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.linha{
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.loginContainer{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(-45deg,var(--ciano),var(--roxo),var(--cinza));
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
+}
+
+.bannerContainer,
+.inputsContainer{
+    padding: 5rem 4rem;
+}
+
+.bannerContainer{
+    text-align: center;
+    border-right: 2px solid #ccc;
+}
+
+.bannerContainer h1{
+    font-size: 3em;
+    color: #fff;
+}
+
+.bannerContainer svg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: float 3s infinite;
+    color: var(--ciano);
+    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
+}
+
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bannerContainer h1,
+.bannerContainer svg{
+    margin: 0.75rem 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.revelarSenhaContainer{
+   display: flex;
+   align-items: center;
+}
+
+.revelarSenhaContainer svg{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.esqueciSenhaContainer{
+    text-align: center;
+}
+
+.esqueciSenhaContainer a{
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    color: var(--cinza);
+}
+
+.esqueciSenhaContainer a span{
+    color: var(--cinza);
+}
+
+.esqueciSenhaContainer a span:hover{
+    color: #00ffff;
+}
+
+.esqueciSenhaContainer a:hover{
+    color: #000;
+}
+
+.botaoContainer{
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.botaoContainer button{
+    background-color: #ccc;
+}
+
+.botaoContainer button:hover{
+    box-shadow: 5px 5px 3px rgba(50,50,50,0.5);
+    background:linear-gradient(45deg,var(--ciano),var(--roxo));
+}
+
+.botaoContainer button:active{
+    background:linear-gradient(-45deg,rgba(0,255,255,0.5),rgba(80,50,130,0.5));
+    box-shadow: 3px 3px 5px rgba(50,50,50,0.5);
+    transform: translateY(-1px);
+    color: #ccc;
+}
+
+.registerLinkContainer a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    color: var(--cinza);
+    transition: 0.3s;
+}
+
+.registerLinkContainer a:hover{
+    color: #000;
+}
+
+.registerLinkContainer a span{
+    transition: 0.3s;
+    color: var(--cinza);
+}
+
+.registerLinkContainer a span:hover{
+    color: #00ffff;
+}

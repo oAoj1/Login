@@ -1,0 +1,17 @@
+button{
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 8px;
+    font-size: 2em;
+    transition: 0.3s;
+    border: 0;
+    border-radius: 7px;
+}
+
+button:hover{
+    transform: translateY(-5px);
+}
+
+button:active{
+    transition: 0s;
+}

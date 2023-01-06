@@ -1,0 +1,32 @@
+@font-face{
+    font-family:'GL' ;
+    src: url('/Fontes/Gilroy-Light.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family:'GB' ;
+    src: url('/Fontes/Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'GL','GB', Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100%;
+    max-height: max-content;
+    background: linear-gradient(45deg,rgba(0,255,255,0.5),rgba(130, 80, 230,0.5),rgba(50,50,50,0.5));
+    background-repeat: no-repeat;
+}
+
+:root{
+    --cinza:#323232;
+    --ciano:#00ffff;
+    --verde:#00ff50;
+    --roxo:#8257e6;
+}

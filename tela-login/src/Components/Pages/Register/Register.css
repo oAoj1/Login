@@ -1,0 +1,71 @@
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userLogo{
+    color:#fff;
+    font-size: 5rem;
+}
+
+.inputsRegisterContainer{
+    background:linear-gradient(-45deg,var(--ciano),var(--roxo),var(--cinza)) ;
+    padding: 4rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inputsRegisterContainer h2{
+    font-size: 3em;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.nomeEmailContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomeEmailContainer input{
+    margin: 0 1rem;
+}
+
+.senhasContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.senhasContainer input{
+    margin: 0 1rem;
+}
+
+.revelarSenha{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.voltarContainer{
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voltarContainer a{
+    color: #000;
+    text-decoration: none;
+}
+
+.voltarContainer svg,
+.voltarContainer p{
+    margin: 0 0.25rem;
+}
+
+.voltarContainer svg{
+    cursor: pointer;
+}

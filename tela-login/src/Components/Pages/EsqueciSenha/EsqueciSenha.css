@@ -1,0 +1,43 @@
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+.esqueciContainer{
+    padding: 5rem;
+    border-radius: 10px;
+    background: linear-gradient(45deg,var(--ciano),var(--roxo),var(--cinza));
+}
+
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailLogo{
+    color:#fff;
+    font-size: 5rem;
+}
+
+.tituloRecuperarSenhaContainer{
+    margin: 1rem 0
+}
+
+.tituloRecuperarSenhaContainer h2,
+.tituloRecuperarSenhaContainer span{
+    margin: 1rem 0;
+}
+
+.tituloRecuperarSenhaContainer h2{
+    font-size: 3em;
+    color: #fff;
+}
+
+.tituloRecuperarSenhaContainer span{
+    color: #ccc;
+    font-size: 1.2em;
+}
+
