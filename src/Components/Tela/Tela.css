@@ -144,3 +144,28 @@ form{
 .registerLinkContainer a span:hover{
     color: #00ffff;
 }
+
+@media screen and (max-width:768px){
+    header{
+        padding: 2rem 0;
+        height: 100%;
+    }
+
+    .loginContainer{
+        flex-direction: column;
+    }
+
+    .bannerContainer{
+        border: 0;
+    }
+
+    .bannerContainer,
+    .inputsContainer{
+        padding: 1.5rem 3rem 1em 3rem;
+    }
+
+    .bannerContainer h1{
+        font-size: 2em;
+    }
+
+}
